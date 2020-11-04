@@ -5,8 +5,10 @@
 </template>
 
 <script>
+import { name } from './manifest.json'
+
 export default {
-  name: 'page-title',
+  name,
   props: {
     text: String
   }

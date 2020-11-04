@@ -6,8 +6,10 @@
 </template>
 
 <script>
+import { name } from './manifest.json'
+
 export default {
-  name: 'captioned-image',
+  name,
   props: {
     url: String,
     alt: String,

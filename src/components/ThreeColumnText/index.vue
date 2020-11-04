@@ -3,8 +3,10 @@
 </template>
 
 <script>
+import { name } from './manifest.json'
+
 export default {
-  name: 'three-column-text',
+  name,
   props: {
     text: String
   }
