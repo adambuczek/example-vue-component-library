@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "npm run manifest && npm run build-from-manifest",
     "build-from-manifest": "node scripts/build.js",
+    "serve-dist": "npx http-serve --cors dist -p 8888",
     "manifest": "node scripts/create-manifest.js",
     "lint": "vue-cli-service lint"
   },
