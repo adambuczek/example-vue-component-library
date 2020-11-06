@@ -1,5 +1,6 @@
 {
   "displayName": "Page Title",
   "name": "page-title",
-  "img": "thumb.png"
+  "img": "thumb.png",
+  "props": [ "text" ]
 }

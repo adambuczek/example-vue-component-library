@@ -1,5 +1,6 @@
 {
   "displayName": "Captioned Image",
   "name": "captioned-image",
-  "img": "thumb.png"
+  "img": "thumb.png",
+  "props": [ "url", "alt", "caption"]
 }

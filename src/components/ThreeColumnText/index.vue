@@ -3,13 +3,11 @@
 </template>
 
 <script>
-import { name } from './manifest.json'
+import { name, props } from './manifest.json'
 
 export default {
   name,
-  props: {
-    text: String
-  }
+  props
 }
 </script>
 
