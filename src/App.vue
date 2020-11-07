@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <PageTitle
       text="Page title looks like this"
     />
