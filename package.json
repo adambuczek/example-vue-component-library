@@ -10,6 +10,9 @@
     "manifest": "node scripts/create-manifest.js",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.12"
