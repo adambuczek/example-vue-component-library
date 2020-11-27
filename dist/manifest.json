@@ -1,0 +1,44 @@
+{
+  "name": "example-vue-component-library",
+  "version": "0.1.0",
+  "components": [
+    {
+      "displayName": "Captioned Image",
+      "name": "captioned-image",
+      "img": "captioned-image-thumb.png",
+      "props": [
+        "url",
+        "alt",
+        "caption"
+      ],
+      "src": "src/components/CaptionedImage/index.vue",
+      "style": "captioned-image.css",
+      "script": "captioned-image.umd.min.js",
+      "map": "captioned-image.umd.min.js.map"
+    },
+    {
+      "displayName": "Page Title",
+      "name": "page-title",
+      "img": "page-title-thumb.png",
+      "props": [
+        "text"
+      ],
+      "src": "src/components/PageTitle/index.vue",
+      "style": "page-title.css",
+      "script": "page-title.umd.min.js",
+      "map": "page-title.umd.min.js.map"
+    },
+    {
+      "displayName": "Three Column Text",
+      "name": "three-column-text",
+      "img": "three-column-text-thumb.png",
+      "props": [
+        "text"
+      ],
+      "src": "src/components/ThreeColumnText/index.vue",
+      "style": "three-column-text.css",
+      "script": "three-column-text.umd.min.js",
+      "map": "three-column-text.umd.min.js.map"
+    }
+  ]
+}
