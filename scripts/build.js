@@ -53,15 +53,14 @@ components.forEach(component => {
     process.exit(1)
   }
 
-  const [ style, script, map ] = [
+  const [ style, script ] = [
     'css',
-    'umd.min.js',
-    'umd.min.js.map'
+    'umd.min.js'
   ].map(extension => `${component.name}.${extension}`)
 
   manifest.components.push({
     ...component,
-    style, script, map
+    style, script
   })
 })
 
